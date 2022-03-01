@@ -1,10 +1,8 @@
 package conta;
 
-import banco.Banco;
-
 import java.util.Date;
 
-public abstract class Conta extends Banco {
+public abstract class Conta{
 
     private static final  int AGENCIA_DIGITAL = 1;
     private static int CONTA = 1;

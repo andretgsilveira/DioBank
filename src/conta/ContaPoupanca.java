@@ -13,4 +13,8 @@ public class ContaPoupanca extends Conta {
         imprimirInfos();
     }
 
+    @Override
+    public void depositar(double valor) {
+        super.saldo += (valor * 1.05);
+    }
 }
